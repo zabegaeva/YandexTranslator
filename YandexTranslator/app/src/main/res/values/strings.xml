@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Переводчик</string>
+    <string name="history">История</string>
+    <string name="favorite">Избранное</string>
+    <string name="recently_lang">НЕДАВНО ИСПОЛЬЗУЕМЫЕ</string>
+    <string name="all_lang">ВСЕ ЯЗЫКИ</string>
+    <string name="enter_text">Введите текст...</string>
+</resources>

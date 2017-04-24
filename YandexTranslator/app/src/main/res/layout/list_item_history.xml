@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/holger_history_item"
+    android:background="@drawable/shape_recycleview">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/check_box_selector"
+        android:id="@+id/list_item_history_favorite_cb"
+        android:layout_alignTop="@+id/list_item_history_lang_tv"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="input"
+        android:id="@+id/list_item_history_input_tv"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/list_item_history_lang_tv"
+        android:layout_marginLeft="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ru-en"
+        android:id="@+id/list_item_history_lang_tv"
+        android:layout_gravity="right|top"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translate"
+        android:id="@+id/list_item_history_translate_tv"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_below="@+id/list_item_history_input_tv"
+        android:maxLines="1"
+        android:layout_marginLeft="30dp"
+        android:layout_toStartOf="@+id/list_item_history_lang_tv" />
+</RelativeLayout>
